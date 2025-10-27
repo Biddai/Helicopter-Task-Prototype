@@ -1,0 +1,3 @@
+// src/utils/events.js
+import Phaser from "phaser";
+export const events = new Phaser.Events.EventEmitter();
