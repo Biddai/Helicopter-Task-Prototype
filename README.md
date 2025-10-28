@@ -14,6 +14,13 @@ npm will install dependencies. When that is done:
 ```
 npm run dev
 ```
-
 Then if everything is working a link will appear in the terminal, usually  http://localhost:8080/.
+
+To build for production as a static website:
+
+```
+npm run build
+```
+
+And deploy on your favorite service (We are using Github Pages with a default vite workflow)
 
