@@ -40,9 +40,6 @@ jobs:
             npm install
           fi
 
-      - name: Build
-        run: npm run dev
-
       - name: Verify build output exists
         run: |
           test -d "$BUILD_DIR" || (echo "Folder '$BUILD_DIR' not found. Set env.BUILD_DIR to your output directory." && exit 1)
